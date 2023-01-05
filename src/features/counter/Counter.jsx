@@ -14,7 +14,7 @@ const Counter = () => {
     dispatch(reset());
   };
   return (
-    <div>
+    <div className="container p-10">
       <p>{count}</p>
       <button onClick={() => dispatch(increment())}>+</button>
       <button onClick={() => dispatch(decrement())}>-</button>
